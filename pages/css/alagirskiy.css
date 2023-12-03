@@ -6,15 +6,15 @@
 
 .acg {
   position: absolute;
-  top: 410px;
-  left: 221px;
+  top: 173px;
+  left: 276px;
   font-size: 15pt;
 }
 
 .circle {
   position: absolute;
-  left: 302px;
-  top: 433px;
+  left: 358px;
+  top: 196px;
   background: #252525;
   border-radius: 50%;
   height: 5px;
@@ -38,7 +38,7 @@
   filter: drop-shadow(2px 2px 1px #765113);
 }
 
-.ACmark > a {
+.ACmark>a {
   text-decoration: none;
   color: black;
   font-size: 40pt;
@@ -74,7 +74,7 @@ body {
   height: auto;
 }
 
-.GS img{
+.GS img {
   height: 20px;
   width: 20px;
 }
@@ -100,6 +100,7 @@ body {
   display: flex;
   flex-direction: row;
 }
+
 .yt {
   display: flex;
   flex-direction: column;
@@ -143,7 +144,7 @@ li img {
   width: 35px;
 }
 
-.main-map > img {
+.main-map>img {
   width: 450px;
   margin: 30px;
   padding: 10px;
@@ -167,9 +168,11 @@ li img {
   font-size: 15pt;
   color: black;
 }
+
 .filters li {
   position: relative;
 }
+
 .filter-button__listik {
   display: none;
   position: absolute;
@@ -177,16 +180,20 @@ li img {
   z-index: 2;
   left: 100px;
 }
-.filter-button--active ~ .filter-button__listik {
+
+.filter-button--active~.filter-button__listik {
   display: block;
 }
+
 .filter-button__listik li {
   margin-right: 10px;
   padding: 0;
 }
+
 .filter-button__listik li:last-child {
   margin: 0;
 }
+
 .filter-button__listik button {
   width: 70px;
   height: 40px;
@@ -195,6 +202,7 @@ li img {
   background: #e5c89b;
   cursor: pointer;
 }
+
 .filter-button__listik ul {
   display: flex;
   padding: 0;
@@ -227,6 +235,27 @@ li img {
   left: 237px;
 }
 
+.SR:nth-child(2) {
+  top: 155px;
+  left: 358px;
+}
+
+.SR:nth-child(3) {
+  top: 159px;
+  left: 379px;
+}
+
+.SR:nth-child(4) {
+  top: 89px;
+  left: 407px;
+}
+
+
+.SR:nth-child(5) {
+  top: 155px;
+  left: 336px;
+}
+
 .GS:nth-child(1) {
   top: 157px;
   left: 460px;
@@ -238,7 +267,7 @@ li img {
 }
 
 .GS:nth-child(3) {
-  top: 255px;
+  top: 175px;
   left: 362px;
 }
 
@@ -251,11 +280,18 @@ li img {
   top: 220px;
   left: 348px;
 }
+
 .GS:nth-child(6) {
   top: 201px;
   left: 363px;
 }
+
 .GS:nth-child(7) {
   top: 196px;
   left: 331px;
+}
+
+.GS:nth-child(8) {
+  top: 167px;
+  left: 394px;
 }

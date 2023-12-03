@@ -33,4 +33,19 @@ function hideSubFilter()
 {
   document.querySelectorAll('.filter-button').forEach(marker => marker.classList.remove('filter-button--active'));
 }
+// $("span[title]").click(function (e) {
+//   var $title = $(this).find(".marker");
+//   if (!$title.length) {
+//     $(this).append('<span class="marker">' + $(this).attr("title") + '</span>');
+//   } else {
+//     $title.remove();
+//   }
+// })
+$('span').tooltipster({
+   animation: 'fade',
+   delay: 200,
+   theme: 'tooltipster-punk',
+   trigger: 'click'
+});
+
 

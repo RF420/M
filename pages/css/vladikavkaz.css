@@ -28,15 +28,17 @@ main {
   transform: scale(1.3);
 }
 
-.ACmark > a {
+.ACmark>a {
   text-decoration: none;
   color: black;
   font-size: 9pt;
 }
-.GS img{
+
+.GS img {
   height: 20px;
   width: 20px;
 }
+
 body {
   display: flex;
   justify-content: space-between;
@@ -88,6 +90,7 @@ body {
   display: flex;
   flex-direction: row;
 }
+
 .yt {
   display: flex;
   flex-direction: column;
@@ -155,9 +158,11 @@ li img {
   font-size: 15pt;
   color: black;
 }
+
 .filters li {
   position: relative;
 }
+
 .filter-button__listik {
   display: none;
   position: absolute;
@@ -165,16 +170,20 @@ li img {
   z-index: 2;
   left: 100px;
 }
-.filter-button--active ~ .filter-button__listik {
+
+.filter-button--active~.filter-button__listik {
   display: block;
 }
+
 .filter-button__listik li {
   margin-right: 10px;
   padding: 0;
 }
+
 .filter-button__listik li:last-child {
   margin: 0;
 }
+
 .filter-button__listik button {
   width: 70px;
   height: 40px;
@@ -183,6 +192,7 @@ li img {
   background: #e6d7bb;
   cursor: pointer;
 }
+
 .filter-button__listik ul {
   display: flex;
   padding: 0;
@@ -222,7 +232,7 @@ li img {
     "Lucida Sans", Arial, sans-serif;
 }
 
-.ACmark > a {
+.ACmark>a {
   text-decoration: none;
   color: black;
 }
@@ -247,9 +257,14 @@ li img {
   top: 457px;
 }
 
+.Q:nth-child(5) {
+  left: 247px;
+  top: 240px;
+}
+
 .DS:nth-child(1) {
-  top: 107px;
-  left: 320px;
+  top: 239px;
+  left: 208px;
 }
 
 .DS:nth-child(2) {
@@ -292,6 +307,11 @@ li img {
   left: 308px;
 }
 
+.W:nth-child(6) {
+  top: 486px;
+  left: 436px;
+}
+
 .S:nth-child(1) {
   top: 221px;
   left: 268px;
@@ -301,9 +321,15 @@ li img {
   top: 242px;
   left: 297px;
 }
+
 .S:nth-child(3) {
   top: 445px;
   left: 481px;
+}
+
+.S:nth-child(4) {
+  top: 575px;
+  left: 297px;
 }
 
 .SR:nth-child(1) {

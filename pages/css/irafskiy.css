@@ -4,6 +4,7 @@
   justify-content: space-between;
   align-items: center;
 }
+
 .main-wrapper {
   position: relative;
   display: flex;
@@ -16,7 +17,7 @@
   cursor: help;
 }
 
-.main-map > img {
+.main-map>img {
   justify-content: start;
 }
 
@@ -47,6 +48,7 @@
   display: flex;
   flex-direction: row;
 }
+
 .yt {
   display: flex;
   flex-direction: column;
@@ -106,7 +108,7 @@ li img {
   width: 40px;
 }
 
-.ACmark > a {
+.ACmark>a {
   text-decoration: none;
   color: black;
   font-size: 9pt;
@@ -140,7 +142,7 @@ body {
 .filters {
   align-self: center;
   height: auto;
-  
+
   position: relative;
   top: 150px;
 }
@@ -173,7 +175,7 @@ li img {
   width: 35px;
 }
 
-.main-map > img {
+.main-map>img {
   width: 450px;
   margin: 30px;
   padding: 10px;
@@ -197,9 +199,11 @@ li img {
   font-size: 15pt;
   color: black;
 }
+
 .filters li {
   position: relative;
 }
+
 .filter-button__listik {
   display: none;
   position: absolute;
@@ -207,16 +211,20 @@ li img {
   z-index: 2;
   left: 100px;
 }
-.filter-button--active ~ .filter-button__listik {
+
+.filter-button--active~.filter-button__listik {
   display: block;
 }
+
 .filter-button__listik li {
   margin-right: 10px;
   padding: 0;
 }
+
 .filter-button__listik li:last-child {
   margin: 0;
 }
+
 .filter-button__listik button {
   width: 70px;
   height: 40px;
@@ -225,6 +233,7 @@ li img {
   background: #ebd3ab;
   cursor: pointer;
 }
+
 .filter-button__listik ul {
   display: flex;
   padding: 0;
@@ -241,12 +250,14 @@ li img {
   background-color: #f3c372;
   opacity: 0%;
 }
+
 .acg {
   position: absolute;
   top: 142px;
   left: 293px;
   font-size: 15pt;
 }
+
 .circle {
   position: absolute;
   left: 369px;
@@ -300,8 +311,8 @@ li img {
 }
 
 .SR:nth-child(2) {
-  top: 103px;
-  left: 437px;
+  top: 116px;
+  left: 426px;
 }
 
 .SR:nth-child(3) {
@@ -312,6 +323,26 @@ li img {
 .SR:nth-child(4) {
   top: 196px;
   left: 340px;
+}
+
+.SR:nth-child(5) {
+  top: 364px;
+  left: 291px;
+}
+
+.SR:nth-child(6) {
+  top: 147px;
+  left: 367px;
+}
+
+.SR:nth-child(7) {
+  top: 139px;
+  left: 335px;
+}
+
+.SR:nth-child(8) {
+  top: 203px;
+  left: 366px;
 }
 
 .GS:nth-child(1) {
@@ -327,4 +358,14 @@ li img {
 .GS:nth-child(3) {
   top: 184px;
   left: 446px;
+}
+
+.GS:nth-child(4) {
+  top: 110px;
+  left: 345px;
+}
+
+.GS:nth-child(5) {
+  top: 129px;
+  left: 369px;
 }

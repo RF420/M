@@ -21,7 +21,7 @@
   filter: drop-shadow(2px 2px 1px #765113);
 }
 
-.ACmark > a {
+.ACmark>a {
   text-decoration: none;
   color: black;
   font-size: 9pt;
@@ -87,6 +87,7 @@ body {
   display: flex;
   flex-direction: row;
 }
+
 .yt {
   display: flex;
   flex-direction: column;
@@ -130,7 +131,7 @@ li img {
   width: 35px;
 }
 
-.main-map > img {
+.main-map>img {
   width: 450px;
   margin: 57px 50px 50px 32px;
   padding: 10px;
@@ -154,9 +155,11 @@ li img {
   font-size: 15pt;
   color: black;
 }
+
 .filters li {
   position: relative;
 }
+
 .filter-button__listik {
   display: none;
   position: absolute;
@@ -164,16 +167,20 @@ li img {
   z-index: 2;
   left: 100px;
 }
-.filter-button--active ~ .filter-button__listik {
+
+.filter-button--active~.filter-button__listik {
   display: block;
 }
+
 .filter-button__listik li {
   margin-right: 10px;
   padding: 0;
 }
+
 .filter-button__listik li:last-child {
   margin: 0;
 }
+
 .filter-button__listik button {
   width: 70px;
   height: 40px;
@@ -182,6 +189,7 @@ li img {
   background: #efe2cb;
   cursor: pointer;
 }
+
 .filter-button__listik ul {
   display: flex;
   padding: 0;
@@ -221,21 +229,21 @@ li img {
     "Lucida Sans", Arial, sans-serif;
 }
 
-.GS img{
+.GS img {
   height: 20px;
   width: 20px;
 }
 
 .GS:nth-child(1) {
   /* Zamankul */
-  top: 195px;
-  left: 170px;
+  top: 218px;
+  left: 148px;
 }
 
 .GS:nth-child(2) {
   /* Tsalыk */
-  top: 218px;
-  left: 270px;
+  top: 259px;
+  left: 238px;
 }
 
 .GS:nth-child(3) {
@@ -292,22 +300,34 @@ li img {
   left: 393px;
 }
 
+.GS:nth-child(12) {
+  /* Razdzog*/
+  top: 218px;
+  left: 248px;
+}
+
+.GS:nth-child(13) {
+  /* Beslan 3*/
+  top: 486px;
+  left: 345px;
+}
+
 .S:nth-child(1) {
   /* Beslan S50 */
-    top: 432px;
-    left: 272px;
+  top: 432px;
+  left: 272px;
 }
 
 .S:nth-child(2) {
   /* Beslan DT */
-    top: 443px;
-    left: 292px;
+  top: 443px;
+  left: 292px;
 }
 
 .SR:nth-child(1) {
   /* Zamankul*/
-  top: 220px;
-  left: 170px;
+  top: 225px;
+  left: 156px;
 }
 
 .SR:nth-child(2) {
@@ -336,8 +356,8 @@ li img {
 
 .SR:nth-child(6) {
   /* Pharn */
-    top: 474px;
-    left: 266px;
+  top: 474px;
+  left: 266px;
 }
 
 .SR:nth-child(7) {
@@ -366,6 +386,6 @@ li img {
 
 .DS:nth-child(1) {
   /* Revolutsii */
-    top: 432px;
-    left: 231px;
+  top: 432px;
+  left: 231px;
 }
